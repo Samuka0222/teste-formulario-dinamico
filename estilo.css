@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(96, 197, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+    color: white
+}
+
+
+section { 
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    width: auto;
+    height: 40px;
+    background-color: rgb(96, 197, 255);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font: bold 15pt Arial;
+    margin-top: 20px;
+}
+
+.btns:hover {
+    background-color: rgba(128, 128, 128, 0.63);
+    color: rgb(92, 92, 92);
+    cursor: pointer;
+}
+
+.inputs{
+    width: 250px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.radioInput {
+    text-align: justify;
+    line-height: 20pt;
+}
+
+.resultado{
+    margin-top: 25px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    color: white
+}
